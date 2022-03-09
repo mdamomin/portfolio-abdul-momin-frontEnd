@@ -1,0 +1,58 @@
+.resume-bullets {
+  box-shadow: 18px 15px 19px -12px grey;
+  height: 100%;
+  width: 260px;
+}
+.bullet-container {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+.bullet-icons {
+  width: 43px;
+  height: 100%;
+  z-index: 1;
+  background-color: #1f2235;
+  position: absolute;
+}
+.bullets {
+  width: 86%;
+  position: relative;
+  z-index: 2;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.bullet {
+  display: flex;
+  cursor: pointer;
+  background-color: #1f2235;
+  height: 40px;
+  margin: 10px 0;
+  padding: 0 8px;
+  border-radius: 20px;
+  width: 30px;
+  transition: width 0.6s ease;
+  text-decoration: none;
+}
+.bullet-logo {
+  font-size: 1.5em;
+  margin: 0 35px 0 0;
+  color: #fff;
+}
+.bullet-label {
+  font-size: 1em;
+  white-space: nowrap;
+  font-family: 'Poppins SemiBold';
+  color: #000;
+}
+.bullet-label-selected {
+  color: #fff !important;
+}
+.selected-bullet {
+  width: 100% !important;
+}

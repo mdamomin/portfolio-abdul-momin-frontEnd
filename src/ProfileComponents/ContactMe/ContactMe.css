@@ -1,0 +1,8 @@
+.contact_container {
+  background-color: #2c2e43;
+  box-shadow: 5px 5px 10px 7px grey;
+  border-radius: 20px;
+}
+.send_email_text {
+  color: #8c8d97;
+}

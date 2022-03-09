@@ -1,0 +1,20 @@
+.skill-parent {
+  position: relative;
+}
+.heading-bullet {
+  position: absolute;
+  left: -30px;
+  height: 15px;
+  width: 15px;
+  top: 5px;
+  border-radius: 50%;
+  background-color: #ff5823;
+}
+.skill-parent h5 {
+  font-family: 'Poppins Bold';
+  font-weight: bold;
+  color: #ff5823;
+}
+.progress {
+  background-color: lightskyblue;
+}

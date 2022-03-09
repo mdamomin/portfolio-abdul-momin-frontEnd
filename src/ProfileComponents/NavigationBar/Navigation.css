@@ -1,0 +1,13 @@
+.navbar_section {
+  background-color: #24263b;
+}
+.navbar_section_scrolled {
+  background-color: #090a0e;
+}
+.navbar_section a {
+  color: #fff;
+}
+.margin-right {
+  margin-right: 3rem;
+  font-weight: bold;
+}

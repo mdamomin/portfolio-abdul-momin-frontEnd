@@ -1,0 +1,84 @@
+.testimonial_container {
+  position: relative;
+}
+.testimonial_carousel_container {
+  position: relative;
+}
+.testimonial_carousel {
+  height: 27em;
+  background: url(../../images/bg-fade-in-1.jpg) top center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.testimonial_carousel::before {
+  content: '';
+  background: rgba(5, 13, 24, 0.4);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  border-radius: 14px;
+}
+.testi_content {
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  height: 100%;
+}
+.testi-item {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 50px 50px 50px 0;
+  margin: -20px 10px 10px 10px;
+  height: 100%;
+}
+.testi-item p {
+  font-size: 12px;
+  line-height: 26px;
+  font-weight: 400;
+  margin: 0 0 10px;
+  font-style: italic;
+}
+.quote {
+  margin-right: 5px;
+  position: relative;
+  margin-top: -20px;
+  font-size: 8px;
+  color: tomato;
+}
+.carousel-container {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+/* .ssss ul {
+  transition: transform 0.8s ease-in 0s !important;
+} */
+.wave {
+  position: absolute;
+  left: 0;
+  bottom: -56px;
+  z-index: 1;
+  right: 0;
+}
+.client-info img {
+  border-radius: 60%;
+  width: 3.5rem;
+  height: 3.5rem;
+}
+@media (max-width: 991.98px) {
+  .wave {
+    bottom: -29px;
+  }
+}
+@media (max-width: 575.98px) {
+  .wave {
+    bottom: -7px;
+  }
+}

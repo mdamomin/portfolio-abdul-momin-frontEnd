@@ -1,0 +1,68 @@
+.About_me {
+  margin-top: -2em;
+  z-index: 20;
+  position: relative;
+}
+.About_me_content {
+  border-radius: 12px;
+  box-shadow: 5px 5px 20px 7px grey;
+}
+@media (max-width: 991.98px) {
+  .About_me_content {
+    width: 100% !important;
+  }
+}
+.screen-heading {
+  font-size: 32px;
+  color: #1f2235;
+  font-family: 'Poppins Bold';
+}
+.screen-sub-heading {
+  letter-spacing: 3px;
+  margin: 8px 0 10px;
+  font-size: 15px;
+}
+
+.seperator-line {
+  width: 180px;
+  height: 2px;
+  background-color: #1f221f;
+}
+.seperator-blob {
+  height: 10px;
+  width: 100%;
+  position: absolute;
+}
+.seperator-blob div {
+  width: 35px;
+  border-radius: 10px;
+  background-color: darkorange;
+}
+.about_img {
+  width: 50%;
+  height: 100%;
+  background: url(../../images/MD_ABDUL_MOMIN-2.jpg) top center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  position: relative;
+  border-radius: 14px 0px 0px 14px;
+}
+
+.about_img::before {
+  content: '';
+  background: rgba(5, 13, 24, 0.4);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  border-radius: 14px;
+}
+.highlight-blob {
+  height: 12px;
+  width: 12px;
+  margin: 0 10px 0 0;
+  background-color: #ff5823;
+  border-radius: 50%;
+}

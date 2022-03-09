@@ -1,0 +1,56 @@
+.resume-screen-container {
+  justify-content: space-evenly;
+  width: 100%;
+}
+.resume-heading,
+.resume-screen-container {
+  display: flex;
+  flex-direction: column;
+}
+.resume-main-heading {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+.heading-bullet {
+  position: absolute;
+  left: -30px;
+  height: 15px;
+  width: 15px;
+  top: 5px;
+  border-radius: 50%;
+  background-color: #ff5823;
+}
+
+.resume-main-heading span {
+  color: darkorange;
+  font-size: 20px;
+  font-family: 'Poppins SemiBold';
+  font-weight: bold;
+}
+.heading-date {
+  background-color: #ff5823;
+  padding: 4px 12px;
+  font-size: 1.1em;
+  border-radius: 14px;
+  color: #fff;
+}
+.resume-sub-heading {
+  font-size: 14px;
+  font-family: 'Poppins SemiBold';
+  color: #000;
+  margin: 10px 0 0;
+}
+.resume-heading-description {
+  font-size: 12px;
+  text-align: justify;
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 575.98px) {
+  .resume-main-heading span {
+    font-size: 15px;
+  }
+  .heading-date {
+    font-size: 1em;
+  }
+}

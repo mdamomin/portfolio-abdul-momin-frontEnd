@@ -1,0 +1,58 @@
+.top_banner {
+  color: #fff;
+  background-image: url(../../images/bg-fade-in-2.jpg);
+  background-size: 100% 100% !important;
+  background-repeat: no-repeat;
+  z-index: 1;
+  position: relative;
+  padding: 92px 0px;
+}
+.top_left,
+.top_right {
+  z-index: 2;
+}
+.social-icons ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.social-icons ul li a {
+  font-size: 1.5em;
+  padding: 8px;
+  color: white;
+}
+.profile_name {
+  color: #ff5823;
+  font-weight: bold;
+}
+.Typewriter__wrapper {
+  display: inline-block;
+  font-weight: bold;
+  font-size: 39px;
+}
+.Typewriter__cursor {
+  font-size: 40px;
+}
+
+.top_banner_img {
+  box-shadow: 0 1px 0 0;
+  border-radius: 50%;
+  height: 315px;
+  width: 305px;
+}
+.top_banner_img:hover img {
+  transform: scale(1.09);
+  transition: all 1s ease-in-out;
+}
+.top_banner_img img {
+  border-radius: 50%;
+  transition: all 0.5s ease-in-out;
+}
+.top_wave {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -16px;
+  z-index: 1;
+}
